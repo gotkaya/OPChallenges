@@ -1,0 +1,13 @@
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.exe
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.deps.json
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.runtimeconfig.json
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.runtimeconfig.dev.json
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.dll
+C:\Users\opilane\source\repos\OPChallenges\Carchang\bin\Debug\netcoreapp3.1\Carchang.pdb
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.AssemblyInfo.cs
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.dll
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.pdb
+C:\Users\opilane\source\repos\OPChallenges\Carchang\obj\Debug\netcoreapp3.1\Carchang.genruntimeconfig.cache
