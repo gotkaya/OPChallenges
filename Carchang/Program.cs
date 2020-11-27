@@ -8,56 +8,75 @@ namespace Carchang
         {
             string mark;
             string model;
-            string regnum;
+            string regNumber;
             string color;
-            int odometer;
-            int fuel;
-            public Car(string _mark, string _model, string _regnum,string _color, int _odometer, int _fuel)
+            int odo;
+            int fuelTank;
+            public Car(string _mark, string _model, string _color, string _regNumber )
             {
                 mark = _mark;
                 model = _model;
-                regnum = _regnum;
                 color = _color;
-                odometer = 0;
-                fuel = 60;
-                Console.WriteLine($"The Car has been created.");
 
+                if (_regNumber.Length != 6)
+                {
+                    regNumber = "udefined";
+                } else
+                {
+                    regNumber = _regNumber;
+                }
+                fuelTank = 60;
+                odo = 0;
+            }
+            public string Model
+            {
+                get { return mark; }
+            }
+            public string Mark
+            {
+                get { return Model; }
+            }
+            public string Color
+            {
+                get { return color; }
+            }
+            public string RegNumber
+            {
+                get { return regNumber; }
+            }
+            public int FuelTank
+            {
+                get { return fuelTank; }
+            }
+            public int Odo
+            {
+                get { return odo; }
+            }
 
-            }
-            public void Mark(string newMark)
+            public void Drive()
             {
-                mark = newMark;
-            }
-            public void Model(string newmodel)
-            {
-                model = newmodel;
-            }
-            public void RegNum(string newRegNum)
-            {
-                mark = newRegNum;
+                odo += 100;
+                fuelTank -= 5;
             }
 
-            public void Color(string newColor)
+            public void ShowCarDetails()
             {
-                color = newColor;
-            }
-
-            public int Odometer
-            {
-                get { return odometer; }
-            }
-            
-            public void ShowCarData()
-            {
-                Console.WriteLine($"Mark: {mark}; Model: {model}; RegNumber: {regnum};Color: {color}; Odometer;{odometer}; Fuel;{fuel}");
+                Console.WriteLine($"Model:{model}; \n Mark :{mark}; \n Color:{color}; \n RegNumber:{regNumber};\n Fuel:{fuelTank};\n Odo:{odo}; ");
             }
 
         }
-
         static void Main(string[] args)
         {
-            
-
+            Car newCar = new Car("toyota", "supra", "red", "4444GGG");
+            while (newCar.FuelTank != 0)
+            {
+                newCar.Drive();
+            }
+            Console.WriteLine("The ride is over");
+            newCar.ShowCarDetails();
         }
     }
 }
+
+
+
